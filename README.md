@@ -11,4 +11,4 @@ wp-post-formats-widget
 ## License
 The **Wordpress Post Formats Widget** is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).
 
-![Widget on the sidebar](https://www.dropbox.com/s/24wgimkuzrmar7y/grab2.png0
+![Widget on the sidebar](https://www.dropbox.com/s/24wgimkuzrmar7y/grab2.png)
