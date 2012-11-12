@@ -7,19 +7,20 @@ The **Wordpress Post Formats Widget** by **[site-59](https://github.com/site-59)
  
 ##Installation
 This is not a plugin, it requires a few steps to install it on your site. You need to have FTP access to upload the contents of the package on the active theme's folder. Here are the steps to follow:
-1. Download and uzip the package from [here]()https://github.com/site-59/wp-post-formats-widget/archive/master.zip
+
+1. Download and uzip the package from [here](https://github.com/site-59/wp-post-formats-widget/archive/master.zip).
 2. Use an FTP application to access your active theme's folder.
-3. Create a new folder here and name it **wp-post-formats-widget** (the name is **important**)
+3. Create a new folder here and name it **wp-post-formats-widget** (the name is **important**).
 4. Upload all the contents of the package to the folder you created earlier.
 5. Open the functions.php file in your active theme folder and the following lines exact of code:
 
-<pre><code>
-	function s59_wp_post_formats_widget(){
-		require_once ( get_template_directory() . '/wp-post-formats-widget/post-formats.php' );			// Post Formats widget
-	}
+	<pre><code>
+		function s59_wp_post_formats_widget(){
+			require_once ( get_template_directory() . '/wp-post-formats-widget/post-formats.php' );			// Post Formats widget
+		}
 
-	add_action( 'after_setup_theme', 's59_wp_post_formats_widget' );
-</code></pre>
+		add_action( 'after_setup_theme', 's59_wp_post_formats_widget' );
+	</code></pre>
 
 6. Save the functions.php file and log on to the widgets panel in the Wordpress administration.
 7. Activate the widget by adding it in one the available widgets' areas. 
