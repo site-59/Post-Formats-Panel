@@ -19,11 +19,9 @@ This is not a plugin, it requires a few steps to install it on your site. First 
 </code></pre>
 
 
-
 ## License
-The **Wordpress Post Formats Widget** is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).
----
-* Icon Set: ![Brankic1979](http://brankic1979.com/icons/) -- License: Custom http://brankic1979.com/icons/
-* Icon Set: ![Entypo](http://www.entypo.com/) -- License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
-* Icon Set: ![IcoMoon - Free](http://keyamoon.com/icomoon/) -- License: CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
+The __Wordpress Post Formats Widget__ is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).
+* Icon Set: [Brankic1979](http://brankic1979.com/icons/) / License: Custom http://brankic1979.com/icons/
+* Icon Set: [Entypo](http://www.entypo.com/) / License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
+* Icon Set: [IcoMoon - Free](http://keyamoon.com/icomoon/) / License: CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
 
