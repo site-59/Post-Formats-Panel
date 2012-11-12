@@ -1,14 +1,16 @@
 <?php
 /**
  * Post Formats Widget.
- * Displays links to post format archives
+ * Displays a panel of links to post format archives
+ * https://github.com/site-59/wp-post-formats-widget
+ *
  *
  * @package og2013
  * @since og2013 1.0
  */
 
 
-class og2013_Post_Formats_Widget extends WP_Widget {
+class s59_Post_Formats_Widget extends WP_Widget {
 
 	/*--------------------------------------------------*/
 	/* Constructor
@@ -68,10 +70,38 @@ class og2013_Post_Formats_Widget extends WP_Widget {
 		);
 
 		$categories = get_categories( $args );
+		$css = '
+		<style>
+			#post-formats {width:100%;}
+			#post-formats a {display:block;width:33.33%;float:left;position:relative;font-size:0.875em;text-align:center;}
+			#post-formats .icon {display:block;font-size:3em;}
+			span.count {position:absolute;right:25px;top:5px;font-size:10px;line-height:1em;font-weight:600;background-color:#999a9f;color:#fff;padding:4px 6px;border-radius:12px;border:2px solid #fff;}
+			@font-face {
+				font-family:"iconfont";
+				src:url("'.get_template_directory_uri() .'/wp-post-formats-widget/fonts/iconfont.eot");
+				src:
+					url("'.get_template_directory_uri() .'/wp-post-formats-widget/fonts/iconfont.eot?#iefix") format("embedded-opentype"),
+					url("'.get_template_directory_uri() .'/wp-post-formats-widget/fonts/iconfont.svg#iconfont") format("svg"),
+					url("'.get_template_directory_uri() .'/wp-post-formats-widget/fonts/iconfont.woff") format("woff"),
+					url("'.get_template_directory_uri() .'/wp-post-formats-widget/fonts/iconfont.ttf") format("truetype";font-weight:normal;font-style:normal;
+			}
+			[data-icon]:before {font-family:"iconfont";content:attr(data-icon);speak:none;font-weight:normal;-webkit-font-smoothing:antialiased;}
+			[class^="icon-"]:before, [class*=" icon-"]:before {font-family:"iconfont";font-style:normal;speak:none;font-weight:normal;-webkit-font-smoothing:antialiased;}
+			.icon-video:before {content:"\e003";}
+			.icon-audio:before {content:"\e001";}
+			.icon-gallery:before {content:"\e002";}
+			.icon-image:before {content:"\e004";}
+			.icon-aside:before {content:"\e005";}
+			.icon-quote:before {content:"\e006";}
+			.icon-link:before {content:"\e007";}
+			.icon-status:before {content:"\e008";}
+			.icon-chat:before {content:"\e000";}
+		</style>';
 		
 		if( $categories ):
 			// Printing the result
 			echo $before_widget;
+			echo $css;
 			echo $before_title;
 			//echo __( 'Featuring:', 'og2013' ); //$title; // Can set this with a widget option, or omit altogether
 			echo $after_title;
@@ -79,7 +109,6 @@ class og2013_Post_Formats_Widget extends WP_Widget {
 
 			foreach ( $categories as $cat) {
 				$pformat = str_replace( 'post-format-', '', $cat->category_nicename );
-				//echo '<li class="item-'.$pformat.'"><span class="count">'.$cat->category_count.' <span aria-hidden="true" class="icon-' . $pformat . '"></span></span>  <a href="'.get_option('home').'/type/'.$pformat.'/">'.$cat->cat_name.'</a></li>';
 				echo '<a class="item-'.$pformat.'" href="'.get_option('home').'/type/'.$pformat.'/"><span aria-hidden="true" class="icon icon-' . $pformat . '"></span><span class="count">'.$cat->category_count.'</span>  <p>'.$cat->cat_name.'</p></a>';
 
 			} 
@@ -140,4 +169,4 @@ class og2013_Post_Formats_Widget extends WP_Widget {
 
 } // end class
 
-add_action( 'widgets_init', create_function( '', 'register_widget("og2013_Post_Formats_Widget");' ) );
+add_action( 'widgets_init', create_function( '', 'register_widget("s59_Post_Formats_Widget");' ) );
