@@ -1,28 +1,22 @@
-![Widget on the sidebar](https://photos-2.dropbox.com/t/0/AABHufD8BAe-8_Id21Z4NpYJ-_mjoMV37zPQpbpZugEu7Q/10/3074147/png/1024x768/2/1352646000/0/2/grab2.png/Bp3IDsL0plY2fY2emFPPI83vcpPSQRkINYq1zlHfgkk)
+![Widget on the sidebar](http://d3j5vwomefv46c.cloudfront.net/photos/full/686201536.png?key=339287&Expires=1352828766&Key-Pair-Id=APKAIYVGSUJFNRFZBBTA&Signature=L7XcBVn9FGbZoin431y-JYi7iAxUDrKfmTwDVQoR~cPoboAEGKyN3I4nlmpmFN--TL3XCH9~U3ddY5nyLmfARhfWei7AIo9D0o42PNmCFTNOyOtxbbLWxF1LJNZX2tAvdS3rRQ5LeSspfm8mDHWE~o0qsjalzz~H9ndv6JyfA2o_)
 
 # [WP Post Formats widget](https://github.com/site-59/wp-post-formats-widget)
 ======================
 
-The **Wordpress Post Formats Widget** by **[site-59](https://github.com/site-59)** creates a stylish, practical panel that displays links with attached counters to any of the [post formats](http://codex.wordpress.org/Post_Formats)' archives available on your site. Originally created for the **[oh-gee](https://github.com/site-59/oh-gee)** theme it can used on almost any sidebar, giving direct access to all of those special posts. If you use the post formats feature on your site, this widget will enhance their functionality. If not then it's time to start using them. 
+The **Wordpress Post Formats Widget** by **[site-59](https://github.com/site-59)** creates a stylish, practical panel that displays links with attached counters to any of the [post formats](http://codex.wordpress.org/Post_Formats)' archives available on your site. Originally created for the **[oh-gee](https://github.com/site-59/oh-gee)** theme it can be used on almost any sidebar, giving direct access to all of those special posts. If you use the post formats feature on your site, this widget will enhance their functionality. If not then it's time to start using them. 
  
 ##Installation
 This is not a plugin, it requires a few steps to install it on your site. You need to have FTP access to upload the contents of the package on the active theme's folder. Here are the steps to follow:
 
-1. Download and uzip the package from [here](https://github.com/site-59/wp-post-formats-widget/archive/master.zip).
-2. Use an FTP application to access your active theme's folder.
-3. Create a new folder here and name it **wp-post-formats-widget** (the name is **important**).
-4. Upload all the contents of the package to the folder you created earlier.
-5. Open the functions.php file in your active theme folder and the following exact lines of code:
-	<pre><code>
-		function s59_wp_post_formats_widget(){
-			require_once ( get_template_directory() . '/wp-post-formats-widget/post-formats.php' );			// Post Formats widget
-		}
+1. Unzip the archived file of the plugin and upload the entire folder to '/wp-content/plugins/' or use the 'Plugins' menu in WordPress to install it. 
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to the widgets screen, and drag the Post Formats Widget to your sidebar.
+4. Check the result and adjust the number of columns in the widget settings accordingly.
 
-		add_action( 'after_setup_theme', 's59_wp_post_formats_widget' );
-		
-	</code></pre>
-6. Save the functions.php file and log on to the widgets panel in the Wordpress administration.
-7. Activate the widget by adding it in one the available widgets' areas. 
+##Translations 
+
+You can contribute online to the translation of the plugin at: 
+(http://poeditor.com/join/project?hash=483320354af457829c82e8d361914707) 
 
 ## License
 The __Wordpress Post Formats Widget__ is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).

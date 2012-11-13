@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Post Formats Archive Widget\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lefteris Theodossiadis <letheos@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;__e\n"
+
+#. Text in echo
+#: post-formats.php:125
+msgid "Number of columns to show:"
+msgstr "Numero di colone da mostrare"
+
+#. Text in function
+#: post-formats.php:1
+msgid "Post Formats Widget"
+msgstr "Post Formats Widget"
+
+#. Text in function
+#: post-formats.php:1
+msgid "Shows a panel of links to all the present post formats archives"
+msgstr "Mostra un panello con link verso tutti gli archivi post format"
+
+#. Text in echo
+#: post-formats.php:122
+msgid "Title:"
+msgstr "Titolo"
