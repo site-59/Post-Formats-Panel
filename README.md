@@ -1,4 +1,4 @@
-![Widget on the sidebar](http://d3j5vwomefv46c.cloudfront.net/photos/full/686201536.png?key=339287&Expires=1352828766&Key-Pair-Id=APKAIYVGSUJFNRFZBBTA&Signature=L7XcBVn9FGbZoin431y-JYi7iAxUDrKfmTwDVQoR~cPoboAEGKyN3I4nlmpmFN--TL3XCH9~U3ddY5nyLmfARhfWei7AIo9D0o42PNmCFTNOyOtxbbLWxF1LJNZX2tAvdS3rRQ5LeSspfm8mDHWE~o0qsjalzz~H9ndv6JyfA2o_)
+![Widget on the sidebar](https://raw.github.com/site-59/wp-post-formats-widget/master/images/post-formats.png)
 
 # [WP Post Formats widget](https://github.com/site-59/wp-post-formats-widget)
 ======================
@@ -24,3 +24,7 @@ The __Wordpress Post Formats Widget__ is licensed the under the GPL license as i
 * Icon Set: [Entypo](http://www.entypo.com/) / License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
 * Icon Set: [IcoMoon - Free](http://keyamoon.com/icomoon/) / License: CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
 
+
+![Widget on the twentyten sidebar](https://raw.github.com/site-59/wp-post-formats-widget/master/images/twentyten.png)
+![Widget on the twentytwelve sidebar](https://raw.github.com/site-59/wp-post-formats-widget/master/images/twentytwelve.png)
+![Administration](https://raw.github.com/site-59/wp-post-formats-widget/master/images/admin.png)
