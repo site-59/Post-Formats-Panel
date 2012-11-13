@@ -3,7 +3,7 @@
 # [WP Post Formats widget](https://github.com/site-59/wp-post-formats-widget)
 ======================
 
-The **Wordpress Post Formats Widget** by **[site-59](https://github.com/site-59)** creates a stylish, practical panel that displays links with attached counters to any of the [post formats](http://codex.wordpress.org/Post_Formats)' archives available on your site. Originally created for the **[oh-gee](https://github.com/site-59/oh-gee)** theme it can be used on almost any sidebar, giving direct access to all of those special posts. If you use the post formats feature on your site, this widget will enhance their functionality. If not then it's time to start using them. 
+The **WP Post Formats Widget** by **[site-59](https://github.com/site-59)** creates a stylish, practical panel that displays links with attached counters to any of the [post formats](http://codex.wordpress.org/Post_Formats)' archives available on your site. Originally created for the **[oh-gee](https://github.com/site-59/oh-gee)** theme it can be used on almost any sidebar, giving direct access to all of those special posts. It is touch friendly and can be used in responsive themes. If you use the post formats feature on your site, this widget will enhance their functionality. If not then it's time to start using them. 
  
 ##Installation
 This is not a plugin, it requires a few steps to install it on your site. You need to have FTP access to upload the contents of the package on the active theme's folder. Here are the steps to follow:
