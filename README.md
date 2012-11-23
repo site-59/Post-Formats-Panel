@@ -19,7 +19,7 @@ You can contribute online to the translation of the plugin at:
 (http://poeditor.com/join/project?hash=483320354af457829c82e8d361914707) 
 
 ## License
-The __Wordpress Post Formats Widget__ is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).
+The __Wordpress Post Formats Panel__ is licensed the under the GPL license as is Wordpress itself. You can find a copy of the license text at the [Codex](http://codex.wordpress.org/GPL).
 * Icon Set: [Brankic1979](http://brankic1979.com/icons/) / License: Custom http://brankic1979.com/icons/
 * Icon Set: [Entypo](http://www.entypo.com/) / License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
 * Icon Set: [IcoMoon - Free](http://keyamoon.com/icomoon/) / License: CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
