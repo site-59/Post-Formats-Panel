@@ -1,20 +1,20 @@
 === Post Formats Widget ===
 
 Contributors: 		Lefteris
-Plugin Name: 		WP Post Formats Widget
+Plugin Name: 		Post Formats Panel
 Plugin URI: 		https://github.com/site-59/wp-post-formats-widget
-Tags: 			widget, widget-only, post-formats, sidebar, formats
-Author: 		site-59
+Tags: 				widget, widget-only, post-formats, sidebar, formats
+Author: 			site-59
 Author URI: 		https://github.com/site-59
 Donate Link: 
-Version:	 	1.0
-License: 		GPLv2 or later
+Version:	 		1.0
+License: 			GPLv2 or later
 License URI: 		http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 	3.1
 Tested up to: 		3.4.1
 Stable tag: 		1.0
 
-Displays a stylish Post Formats panel on your sidebar.
+Displays a stylish Post Formats Panel as a widget on your sidebar.
 
 == Description ==
 
@@ -23,7 +23,7 @@ The WP Post Formats Widget creates a stylish, practical panel that displays all 
 
 == Installation ==
 
-1. Unzip the archived file of the plugin and upload the entire folder to '/wp-content/plugins/' or use the 'Plugins' menu in WordPress to install it. 
+1. Unzip the archived file of the plugin and upload the entire folder to '/wp-content/plugins/' or use the 'Plugins' administration page in WordPress to install it. 
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to the widgets screen, and drag the Post Formats Widget to your sidebar.
 4. Check the result and adjust the number of columns in the widget settings accordingly.

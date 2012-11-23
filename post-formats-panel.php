@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Post Formats Widget
+Plugin Name: Post Formats Panel
 Version: 1.0
-Plugin URI: https://github.com/site-59/wp-post-formats-widget
-Description: Displays a panel of all the available post formats with counter and links to the post format archives.
+Plugin URI: https://github.com/site-59/Post-Formats-Panel
+Description: A widget that displays a panel of all the available post formats with counter and links to the respective post format archives.
 Author: Lefteris Theodossiadis
 Author URI: https://github.com/site-59
 License: GPL v2
@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
-class s59_Post_Formats_Widget extends WP_Widget {
+class s59_Post_Formats_Panel extends WP_Widget {
 	
 	public function __construct() {
 		
@@ -41,19 +41,17 @@ class s59_Post_Formats_Widget extends WP_Widget {
 	}
 	
 	public function register_plugin_css() {
-		wp_enqueue_style( 's59css', plugins_url( 'wp-post-formats-widget/style.css' ) );
+		wp_enqueue_style( 's59css', plugins_url( 'Post-Formats-Panel/style.css' ) );
 	} 
 	
 	public function textdomain() {
 		load_plugin_textdomain( 's59', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	} 
 
-
 	public function widget( $args, $instance ) {
 
-
 		// Widget Values
-		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Post Formats Widget', 's59' ) : $instance['title'], $instance, $this->id_base );
+		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Post Formats Panel', 's59' ) : $instance['title'], $instance, $this->id_base );
 
 		if ( ! isset( $instance['columns'] ) ) $instance['columns'] = '3';
 		if ( ! $columns = absint( $instance['columns'] ) ) $number = 3;
@@ -107,7 +105,6 @@ class s59_Post_Formats_Widget extends WP_Widget {
 
 	} // end widget
 
-
 	/**
 	 * Generates the administration form for the widget.
 	 *
@@ -130,7 +127,6 @@ class s59_Post_Formats_Widget extends WP_Widget {
 
 	} // end form
 
-
 } // end class
 
-add_action( 'widgets_init', create_function( '', 'register_widget("s59_Post_Formats_Widget");' ) );
+add_action( 'widgets_init', create_function( '', 'register_widget("s59_Post_Formats_Panel");' ) );
